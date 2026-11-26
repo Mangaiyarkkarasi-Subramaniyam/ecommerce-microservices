@@ -28,6 +28,10 @@ public class Product {
     @Column(name = "stock_quantity", nullable = false)
     private Integer stockQuantity;
 
+    public Long getId() {
+        return id;
+    }
+    
     public void setName(String name) {
         this.name = name;
     }
